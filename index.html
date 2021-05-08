@@ -1,12 +1,3 @@
-<?php
-session_start();
-
-if(isset($_SESSION['username'])){
-  header("Location: dashboard.php");
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,9 +17,9 @@ if(isset($_SESSION['username'])){
     ></script>
     <link rel="stylesheet" href="css/style.css" />
     <style>
-      body{
-        background:red;
-      }
+        .hi{
+            background-color: red;
+        }
     </style>
     <title>Guvi challenge</title>
   </head>
